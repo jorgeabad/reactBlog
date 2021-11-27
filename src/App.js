@@ -12,12 +12,12 @@ function App() {
       <Routes>
       
     
-      <Route path="/blogs/:_id" element={<PostContenido/>}>
+      <Route path="reactBlog/blogs/:_id" element={<PostContenido/>}>
   
               
             </Route>
      
-            <Route path="/" element={<Home/>}>
+            <Route path="reactBlog/" element={<Home/>}>
   
               
   </Route>
