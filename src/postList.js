@@ -65,7 +65,7 @@ function listaPorTemas(url, posts, tema) {
     return (
       <Col>
       <Card key={post._id} style={{ width: "18rem" }}>
-        <Link to={`reactBlog/blogs/${post._id}`} state={post}>
+        <Link to={`blogs/${post._id}`} state={post}>
           <Card.Img variant="top" src={"https://jorge-abad.es" + img} />
           <Card.Body>
             <Card.Title>{post.titulo}</Card.Title>

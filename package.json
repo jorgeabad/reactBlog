@@ -2,7 +2,7 @@
   "name": "reactblog",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://jorgeabad.github.io/reactBlog/",
+  "homepage": "https://jorgeabad.github.io/reactblog/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -37,7 +37,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/jorgeabad/reactBlog"
+    "deploy": "gh-pages -d build -r https://github.com/jorgeabad/reactblog"
   },
   "eslintConfig": {
     "extends": [
